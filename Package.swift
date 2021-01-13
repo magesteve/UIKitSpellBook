@@ -12,13 +12,14 @@ let package = Package(
             targets: ["UIKitSpellBook"]),
     ],
     dependencies: [
+        .package(url: "https://github.com/magesteve/SwiftSpellBook.git", from: "1.0.0"),
     ],
     targets: [
         .target(
             name: "UIKitSpellBook",
-            dependencies: []),
+            dependencies: ["SwiftSpellBook"]),
         .testTarget(
             name: "UIKitSpellBookTests",
-            dependencies: ["UIKitSpellBook"]),
+            dependencies: ["SwiftSpellBook", "UIKitSpellBook"]),
     ]
 )

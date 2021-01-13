@@ -1,20 +1,26 @@
-// PanelSpells.swift
+//
+//  UIKitSpellBook.swift
+//  UIKitSpellBook
+//
+//  Created by Steve Sheets on 1/10/21.
+//  Copyright © 2021 Steve Sheets. All rights reserved.
 
 import Foundation
 import UIKit
+import SwiftSpellBook
 
-public struct SpellBook {
+/// Abstract extension for name space of typealias & static functions.
+public struct UIKitSpellBook {
     
-    /// Closure that has no results, but it passed a URL.
-    public typealias URLClosure = (URL) -> Void
-    
-    /// Closure that has no results, but it passed a Data.
-    public typealias DataClosure = (Data) -> Void
-    
-    /// Closure that has no results, but it passed a String.
-    public typealias StringClosure = (String) -> Void
-    
-    /// Closure that has no results, but it passed a NSImage.
-    public typealias ImageClosure = (UIImage) -> Void
     
 }
+
+// MARK: Closure Typealiases
+
+public extension UIKitSpellBook {
+
+    /// Closure that has no results, but it passed a UIImage.
+    typealias ImageClosure = (UIImage) -> Void
+
+}
+
