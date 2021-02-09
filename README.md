@@ -18,7 +18,7 @@ Swift Package of useful tools for UIKit (iOS) Development.
 
 ### Repository
 
-  https://github.com/magesteve/UIKitSpellBook.git
+    https://github.com/magesteve/UIKitSpellBook.git
   
 ## Documentation
 
