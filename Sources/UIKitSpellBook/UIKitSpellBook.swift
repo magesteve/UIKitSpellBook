@@ -19,8 +19,11 @@ public struct UIKitSpellBook {
 
 public extension UIKitSpellBook {
 
-    /// Closure that has no results, but it passed a UIImage.
+    /// Closure that has no results, but it passed an UIImage..
     typealias ImageClosure = (UIImage) -> Void
+
+    /// Closure that has no parameters, but it returns an UIImage.
+    typealias ImageResultClosure = () -> UIImage
 
 }
 
