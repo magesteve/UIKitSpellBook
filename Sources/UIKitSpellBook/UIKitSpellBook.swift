@@ -9,13 +9,15 @@ import Foundation
 import UIKit
 import SwiftSpellBook
 
+// MARK: - Struct
+
 /// Abstract extension for name space of typealias & static functions.
 public struct UIKitSpellBook {
     
     
 }
 
-// MARK: Closure Typealiases
+// MARK: - Closure Typealiases
 
 public extension UIKitSpellBook {
 
